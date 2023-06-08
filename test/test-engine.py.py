@@ -1,11 +1,10 @@
 import unittest
 from datetime import datetime
 
-from engine.model.calliope import Calliope
-from engine.model.glissade import Glissade
-from engine.model.palindrome import Palindrome
-from engine.model.rorschach import Rorschach
-from engine.model.thovex import Thovex
+from engine.capulet_engine import CapuletEngine
+from engine import engine
+from engine.sternman_engine import SternManEngine
+from engine.willoughby_engine import WilloughbyEngine
 
 
 class TestCalliope(unittest.TestCase):
